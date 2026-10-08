@@ -1,0 +1,13 @@
+{
+  "id": "crypt",
+  "playerSpawn": { "x": 0, "z": 0 },
+  "npcs": [],
+  "creatures": [
+    { "template": 4, "x": 8, "z": 6 },
+    { "template": 4, "x": 11, "z": 9 },
+    { "template": 4, "x": -7, "z": 10 },
+    { "template": 4, "x": -10, "z": 13 },
+    { "template": 5, "x": 2, "z": 22 },
+    { "template": 3, "x": 0, "z": 38 }
+  ]
+}

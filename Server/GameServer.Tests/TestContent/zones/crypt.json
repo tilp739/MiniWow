@@ -1,0 +1,8 @@
+{
+  "id": "crypt",
+  "playerSpawn": { "x": 0, "z": 0 },
+  "npcs": [],
+  "creatures": [
+    { "template": 3, "x": 6, "z": 0 }
+  ]
+}

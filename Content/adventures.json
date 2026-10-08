@@ -1,0 +1,17 @@
+{
+  "adventures": [
+    {
+      "id": 1,
+      "key": "forgotten_forest",
+      "name": "Forêt Oubliée",
+      "zoneId": "adventure_forest",
+      "recommendedLevel": 5,
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "difficulty": 2,
+      "bossCount": 2,
+      "dungeonCount": 1,
+      "description": "Une forêt dense infestée de bandits et de bêtes sauvages, avec une crypte oubliée en son cœur."
+    }
+  ]
+}

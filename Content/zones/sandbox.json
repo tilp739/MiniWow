@@ -1,0 +1,36 @@
+{
+  "id": "sandbox",
+  "playerSpawn": { "x": 0, "z": 0 },
+  "npcs": [4, 5, 6],
+  "creatures": [
+    { "template": 1, "x": 22, "z": 18 },
+    { "template": 1, "x": 26, "z": 20 },
+    { "template": 1, "x": 24, "z": 24 },
+    { "template": 1, "x": -22, "z": 18 },
+    { "template": 1, "x": -26, "z": 22 },
+
+    { "template": 2, "x": 28, "z": -24 },
+    { "template": 2, "x": 33, "z": -22 },
+    { "template": 2, "x": 31, "z": -28 },
+    { "template": 2, "x": -30, "z": -24 },
+    { "template": 2, "x": -34, "z": -27 },
+
+    { "template": 6, "x": 52, "z": 45 },
+    { "template": 6, "x": 58, "z": 48 },
+    { "template": 6, "x": 55, "z": 52 },
+
+    { "template": 7, "x": -52, "z": -45 },
+    { "template": 7, "x": -58, "z": -48 }
+  ],
+  "gatheringNodes": [
+    { "template": 1, "x": 15, "z": -15 },
+    { "template": 1, "x": -15, "z": -15 },
+    { "template": 1, "x": 40, "z": 10 },
+    { "template": 1, "x": -40, "z": 10 },
+
+    { "template": 2, "x": 15, "z": 15 },
+    { "template": 2, "x": -15, "z": 15 },
+    { "template": 2, "x": 40, "z": -10 },
+    { "template": 2, "x": -40, "z": -10 }
+  ]
+}

@@ -1,0 +1,54 @@
+# ===== Unity =====
+Client/UnityProject/Library/
+Client/UnityProject/Temp/
+Client/UnityProject/Logs/
+Client/UnityProject/Obj/
+Client/UnityProject/Build/
+Client/UnityProject/Builds/
+Client/UnityProject/UserSettings/
+Client/UnityProject/MemoryCaptures/
+Client/UnityProject/Recordings/
+# Fichiers .sln/.csproj générés par Unity (régénérés automatiquement)
+Client/UnityProject/MiniWow.sln
+Client/UnityProject/Assembly-CSharp.csproj
+Client/UnityProject/Assembly-CSharp-Editor.csproj
+Client/UnityProject/DocCodeExamples.csproj
+Client/UnityProject/Unity.*.csproj
+*.csproj.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Fichiers générés par les builds (copies automatiques) : ne pas versionner
+Client/UnityProject/Assets/Plugins/GameShared/
+Client/UnityProject/Assets/Resources/Content/
+
+# ===== .NET =====
+bin/
+obj/
+*.user
+*.suo
+TestResults/
+coverage/
+*.DotSettings.user
+
+# ===== IDE / OS =====
+.vs/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ===== Secrets / configuration locale (ne jamais commiter) =====
+.env
+*.local.json
+*.local.json.bak
+*.local.json.bak.meta
+*.local.json.meta
+appsettings.*.local.json
+secrets.json

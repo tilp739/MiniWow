@@ -1,0 +1,16 @@
+{
+  "gatheringNodes": [
+    {
+      "id": 1, "key": "copper_vein", "name": "Veine de cuivre",
+      "professionId": 1, "requiredSkill": 1,
+      "resultItemId": 7, "resultQuantityMin": 1, "resultQuantityMax": 2,
+      "respawnSeconds": 30
+    },
+    {
+      "id": 2, "key": "silverleaf_patch", "name": "Touffe de feuilles d'argent",
+      "professionId": 2, "requiredSkill": 1,
+      "resultItemId": 8, "resultQuantityMin": 1, "resultQuantityMax": 2,
+      "respawnSeconds": 30
+    }
+  ]
+}

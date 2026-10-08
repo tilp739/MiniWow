@@ -1,0 +1,33 @@
+{
+  "npcs": [
+    {
+      "id": 1,
+      "key": "elder_mira",
+      "name": "Ancienne Mira",
+      "text": "Les loups rôdent près de la forêt. Pourriez-vous nous aider ?",
+      "x": 3, "z": -3,
+      "offeredQuests": [1, 2, 3, 4]
+    },
+    {
+      "id": 2,
+      "key": "merchant_tom",
+      "name": "Marchand Tom",
+      "text": "Achetez ou vendez, mais ne traînez pas !",
+      "x": -3, "z": -3,
+      "shop": [
+        { "itemId": 6, "price": 5 },
+        { "itemId": 4, "price": 12 },
+        { "itemId": 5, "price": 10 }
+      ],
+      "teachesProfessions": [1, 2, 3, 4]
+    },
+    {
+      "id": 3,
+      "key": "gatekeeper",
+      "name": "Gardien de la crypte",
+      "text": "La crypte est ouverte. Entrez en groupe, et sachez ce qui vous attend.",
+      "x": -3, "z": 3,
+      "dungeonZone": "crypt"
+    }
+  ]
+}

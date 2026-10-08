@@ -1,0 +1,22 @@
+name: miniwow
+
+services:
+  postgres:
+    image: postgres:17
+    environment:
+      POSTGRES_DB: miniwow_dev
+      POSTGRES_USER: miniwow
+      POSTGRES_PASSWORD: ${MINIWOW_DB_PASSWORD:?Définir MINIWOW_DB_PASSWORD dans un fichier .env}
+    ports:
+      # Lié à localhost uniquement : la base n'est pas exposée au réseau.
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U miniwow -d miniwow_dev"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  pgdata:

@@ -1,0 +1,8 @@
+{
+  "professions": [
+    { "id": 1, "key": "mining", "name": "Minage", "maxSkill": 75 },
+    { "id": 2, "key": "herbalism", "name": "Herboristerie", "maxSkill": 75 },
+    { "id": 3, "key": "blacksmithing", "name": "Forge", "maxSkill": 75 },
+    { "id": 4, "key": "alchemy", "name": "Alchimie", "maxSkill": 75 }
+  ]
+}

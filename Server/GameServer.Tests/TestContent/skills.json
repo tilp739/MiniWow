@@ -1,0 +1,46 @@
+{
+  "skills": [
+    {
+      "id": 1, "key": "heavy_strike", "name": "Frappe lourde", "class": "Warrior",
+      "kind": "Damage", "school": "Physical", "targetsEnemy": true,
+      "range": 3, "castSeconds": 0, "cooldownSeconds": 6,
+      "resourceCost": 20, "resourceCostKind": "Rage",
+      "basePower": 10, "coefficient": 1.2
+    },
+    {
+      "id": 2, "key": "taunt", "name": "Provocation", "class": "Warrior",
+      "kind": "Taunt", "school": "Physical", "targetsEnemy": true,
+      "range": 12, "castSeconds": 0, "cooldownSeconds": 10,
+      "resourceCost": 0, "resourceCostKind": "Rage",
+      "basePower": 0, "coefficient": 0
+    },
+    {
+      "id": 3, "key": "ember_bolt", "name": "Trait de braise", "class": "Mage",
+      "kind": "Damage", "school": "Arcane", "targetsEnemy": true,
+      "range": 25, "castSeconds": 1.5, "cooldownSeconds": 0,
+      "resourceCost": 10, "resourceCostKind": "Mana",
+      "basePower": 12, "coefficient": 1.0
+    },
+    {
+      "id": 4, "key": "frost_lance", "name": "Lance de givre", "class": "Mage",
+      "kind": "Damage", "school": "Arcane", "targetsEnemy": true,
+      "range": 20, "castSeconds": 0, "cooldownSeconds": 8,
+      "resourceCost": 15, "resourceCostKind": "Mana",
+      "basePower": 20, "coefficient": 1.4
+    },
+    {
+      "id": 5, "key": "mend", "name": "Soin", "class": "Priest",
+      "kind": "Heal", "school": "Holy", "targetsEnemy": false,
+      "range": 25, "castSeconds": 1.5, "cooldownSeconds": 0,
+      "resourceCost": 15, "resourceCostKind": "Mana",
+      "basePower": 15, "coefficient": 1.0
+    },
+    {
+      "id": 6, "key": "radiant_strike", "name": "Frappe radieuse", "class": "Priest",
+      "kind": "Damage", "school": "Holy", "targetsEnemy": true,
+      "range": 20, "castSeconds": 0, "cooldownSeconds": 6,
+      "resourceCost": 10, "resourceCostKind": "Mana",
+      "basePower": 8, "coefficient": 1.1
+    }
+  ]
+}

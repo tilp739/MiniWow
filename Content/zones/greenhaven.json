@@ -1,0 +1,17 @@
+{
+  "id": "greenhaven",
+  "playerSpawn": { "x": 0, "z": 0 },
+  "npcs": [1, 2, 3, 7, 8],
+  "creatures": [
+    { "template": 1, "x": 40, "z": 12 },
+    { "template": 1, "x": 44, "z": 18 },
+    { "template": 1, "x": 36, "z": 22 },
+    { "template": 2, "x": -30, "z": 25 }
+  ],
+  "gatheringNodes": [
+    { "template": 1, "x": 10, "z": 8 },
+    { "template": 1, "x": 14, "z": -6 },
+    { "template": 2, "x": -10, "z": 10 },
+    { "template": 2, "x": -14, "z": -8 }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "quests": [
+    {
+      "id": 1, "key": "wolf_hunt", "title": "La chasse aux loups",
+      "giverNpcId": 1, "turnInNpcId": 1,
+      "objectives": [ { "kind": "Kill", "targetId": 1, "count": 3 } ],
+      "reward": { "experience": 60, "copper": 20 }
+    },
+    {
+      "id": 2, "key": "pelts_for_mira", "title": "Fourrures pour Mira",
+      "giverNpcId": 1, "turnInNpcId": 1,
+      "objectives": [ { "kind": "Collect", "targetId": 1, "count": 2 } ],
+      "reward": { "experience": 30, "copper": 10, "itemId": 6, "itemCount": 1 }
+    },
+    {
+      "id": 3, "key": "greetings", "title": "Une poignée de main",
+      "giverNpcId": 1, "turnInNpcId": 2,
+      "objectives": [ { "kind": "Talk", "targetId": 2, "count": 1 } ],
+      "reward": { "experience": 20, "copper": 5 }
+    },
+    {
+      "id": 4, "key": "ruins_scout", "title": "Éclaireur des ruines",
+      "giverNpcId": 1, "turnInNpcId": 1,
+      "objectives": [ { "kind": "GoTo", "x": 40, "z": 12, "radius": 4 } ],
+      "reward": { "experience": 40, "copper": 15 }
+    }
+  ]
+}

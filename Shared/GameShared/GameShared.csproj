@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    Code partagé client (Unity) et serveur.
+    netstandard2.1 + C# 9 : contraintes imposées par Unity 6. Ne pas utiliser
+    records / init / file-scoped namespaces (IsExternalInit absent de netstandard2.1).
+  -->
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <RootNamespace>GameShared</RootNamespace>
+    <AssemblyName>GameShared</AssemblyName>
+  </PropertyGroup>
+
+  <!--
+    Copie la DLL dans le projet Unity après chaque build, pour que le client utilise
+    exactement le protocole du serveur. Le dossier généré n'est pas versionné.
+  -->
+  <PropertyGroup>
+    <UnityPluginDir>$(MSBuildThisFileDirectory)..\..\Client\UnityProject\Assets\Plugins\GameShared\</UnityPluginDir>
+  </PropertyGroup>
+
+  <Target Name="CopyToUnityProject" AfterTargets="Build" Condition="Exists('$(UnityPluginDir)')">
+    <Copy SourceFiles="$(OutDir)$(AssemblyName).dll" DestinationFolder="$(UnityPluginDir)" />
+  </Target>
+
+</Project>

@@ -1,0 +1,20 @@
+{
+  "recipes": [
+    {
+      "id": 1, "key": "copper_dagger", "name": "Poignard de cuivre",
+      "professionId": 3, "requiredSkill": 1,
+      "resultItemId": 9, "resultQuantity": 1,
+      "reagents": [
+        { "itemId": 7, "quantity": 3 }
+      ]
+    },
+    {
+      "id": 2, "key": "brew_healing_potion", "name": "Potion de soin",
+      "professionId": 4, "requiredSkill": 1,
+      "resultItemId": 6, "resultQuantity": 1,
+      "reagents": [
+        { "itemId": 8, "quantity": 2 }
+      ]
+    }
+  ]
+}

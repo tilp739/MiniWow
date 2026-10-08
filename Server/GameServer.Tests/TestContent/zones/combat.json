@@ -1,0 +1,10 @@
+{
+  "id": "combat",
+  "playerSpawn": { "x": 0, "z": 0 },
+  "npcs": [1, 2, 3],
+  "creatures": [
+    { "template": 1, "x": 2.5, "z": 0 },
+    { "template": 2, "x": -2.5, "z": 0 },
+    { "template": 1, "x": 50, "z": 0 }
+  ]
+}

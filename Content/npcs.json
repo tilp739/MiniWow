@@ -1,0 +1,89 @@
+{
+  "npcs": [
+    {
+      "id": 1,
+      "key": "elder_mira",
+      "name": "Ancienne Mira",
+      "text": "Les loups rôdent près de la forêt. Pourriez-vous nous aider ?",
+      "x": 3, "z": -3,
+      "offeredQuests": [1, 2, 3, 4]
+    },
+    {
+      "id": 2,
+      "key": "merchant_tom",
+      "name": "Marchand Tom",
+      "text": "Achetez ou vendez, mais ne traînez pas !",
+      "x": -3, "z": -3,
+      "shop": [
+        { "itemId": 6, "price": 5 },
+        { "itemId": 4, "price": 12 },
+        { "itemId": 5, "price": 10 }
+      ],
+      "teachesProfessions": [1, 2, 3, 4]
+    },
+    {
+      "id": 3,
+      "key": "gatekeeper",
+      "name": "Gardien de la crypte",
+      "text": "La crypte est ouverte. Entrez en groupe, et sachez ce qui vous attend.",
+      "x": -3, "z": 3,
+      "dungeonZone": "crypt"
+    },
+    {
+      "id": 4,
+      "key": "sandbox_trainer",
+      "name": "Maître d'armes Korrin",
+      "text": "Je peux vous enseigner un métier, ou vous vendre de quoi commencer.",
+      "x": -5, "z": -5,
+      "shop": [
+        { "itemId": 6, "price": 5 },
+        { "itemId": 3, "price": 4 },
+        { "itemId": 4, "price": 12 },
+        { "itemId": 5, "price": 10 }
+      ],
+      "teachesProfessions": [1, 2, 3, 4]
+    },
+    {
+      "id": 5,
+      "key": "sandbox_questgiver",
+      "name": "Éclaireuse Yara",
+      "text": "Des loups alpha rôdent au nord-est. Débarrassez-nous d'eux.",
+      "x": 5, "z": -5,
+      "offeredQuests": [5]
+    },
+    {
+      "id": 6,
+      "key": "sandbox_gate",
+      "name": "Portail de la crypte",
+      "text": "La crypte est aussi accessible depuis ici. Entrez en groupe.",
+      "x": 0, "z": -9,
+      "dungeonZone": "crypt"
+    },
+    {
+      "id": 7,
+      "key": "tavernkeeper_boran",
+      "name": "Tavernier Boran",
+      "text": "Bienvenue à la taverne ! Un verre avant l'aventure ?",
+      "x": 6, "z": 6,
+      "shop": [
+        { "itemId": 6, "price": 5 }
+      ]
+    },
+    {
+      "id": 8,
+      "key": "adventure_herald",
+      "name": "Héraut des aventures",
+      "text": "Quelles aventures sont disponibles ?",
+      "x": 8, "z": 6,
+      "offeredAdventureIds": [1]
+    },
+    {
+      "id": 9,
+      "key": "forest_crypt_gate",
+      "name": "Entrée de la crypte oubliée",
+      "text": "Une crypte ancienne s'enfonce sous la forêt. Entrez en groupe, et sachez ce qui vous attend.",
+      "x": 20, "z": 30,
+      "dungeonZone": "crypt"
+    }
+  ]
+}

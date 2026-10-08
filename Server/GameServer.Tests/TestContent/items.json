@@ -1,0 +1,13 @@
+{
+  "items": [
+    { "id": 1, "key": "wolf_pelt", "name": "Fourrure de loup", "maxStack": 20, "sellPrice": 2 },
+    { "id": 2, "key": "boar_tusk", "name": "Défense de sanglier", "maxStack": 10, "sellPrice": 5 },
+    { "id": 3, "key": "rusty_sword", "name": "Épée rouillée", "maxStack": 1, "slot": "MainHand", "strength": 2, "sellPrice": 4 },
+    { "id": 4, "key": "leather_cap", "name": "Casque de cuir", "maxStack": 1, "slot": "Head", "armor": 5, "stamina": 1, "sellPrice": 6 },
+    { "id": 5, "key": "linen_robe", "name": "Robe de lin", "maxStack": 1, "slot": "Chest", "armor": 2, "intelligence": 2, "sellPrice": 6 },
+    { "id": 6, "key": "healing_potion", "name": "Potion de soin", "maxStack": 5, "sellPrice": 3 },
+    { "id": 7, "key": "copper_ore", "name": "Minerai de cuivre", "maxStack": 20, "sellPrice": 1 },
+    { "id": 8, "key": "silverleaf", "name": "Feuille d'argent", "maxStack": 20, "sellPrice": 1 },
+    { "id": 9, "key": "copper_dagger", "name": "Poignard de cuivre", "maxStack": 1, "slot": "MainHand", "strength": 3, "sellPrice": 10 }
+  ]
+}

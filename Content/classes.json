@@ -1,0 +1,31 @@
+{
+  "classes": [
+    {
+      "id": "Warrior",
+      "key": "warrior",
+      "name": "Guerrier",
+      "resource": "Rage",
+      "baseStrength": 12, "baseAgility": 6, "baseIntelligence": 2, "baseStamina": 10, "baseSpirit": 2,
+      "growthStrength": 3, "growthAgility": 1, "growthIntelligence": 0, "growthStamina": 3, "growthSpirit": 0,
+      "resourceRegenPerSecond": -2
+    },
+    {
+      "id": "Mage",
+      "key": "mage",
+      "name": "Mage",
+      "resource": "Mana",
+      "baseStrength": 2, "baseAgility": 4, "baseIntelligence": 12, "baseStamina": 5, "baseSpirit": 6,
+      "growthStrength": 0, "growthAgility": 0, "growthIntelligence": 3, "growthStamina": 1, "growthSpirit": 1,
+      "resourceRegenPerSecond": 3
+    },
+    {
+      "id": "Priest",
+      "key": "priest",
+      "name": "Prêtre",
+      "resource": "Mana",
+      "baseStrength": 2, "baseAgility": 3, "baseIntelligence": 9, "baseStamina": 6, "baseSpirit": 10,
+      "growthStrength": 0, "growthAgility": 0, "growthIntelligence": 2, "growthStamina": 1, "growthSpirit": 2,
+      "resourceRegenPerSecond": 3
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+ALTER TABLE characters ADD COLUMN professions JSONB NOT NULL DEFAULT '[]';
